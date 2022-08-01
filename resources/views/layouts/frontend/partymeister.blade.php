@@ -7,6 +7,7 @@
     <title>{{$version->name}} | {{config('motor-backend-project.name_frontend')}}</title>
 
     <link href="{{ mix('/css/motor-frontend.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ mix('/css/evoke2022.css') }}" rel="stylesheet" type="text/css"/>
     @yield('view-styles')
 </head>
 <body>
