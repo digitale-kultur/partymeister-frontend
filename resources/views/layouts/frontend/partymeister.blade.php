@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
 
     <link href="{{ mix('/css/motor-frontend.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ mix('/css/evoke2023.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="/css/evoke2023.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <link rel=icon href="/favicon.png" type="image/x-icon">
     @yield('view-styles')
