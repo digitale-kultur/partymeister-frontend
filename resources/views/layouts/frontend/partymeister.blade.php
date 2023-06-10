@@ -7,6 +7,7 @@
     <title>{{$version->name}} | {{config('motor-cms-frontend.name')}}</title>
 
     <link href="{{ mix('/css/motor-frontend.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ mix('/css/evoke2023.css') }}" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
     <link rel=icon href="/favicon.png" type="image/x-icon">
     @yield('view-styles')
