@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{{$version->name}} | {{config('motor-cms-frontend.name')}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 
     <link href="{{ mix('/css/motor-frontend.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ mix('/css/evoke2023.css') }}" rel="stylesheet" type="text/css"/>
